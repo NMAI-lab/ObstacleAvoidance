@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+//This agent only uses Sonar as a way to determine the actions it performs. 
 public class RoboSimulateToggleV2 extends Thread {
 
 	private EnvironmentModel model;
